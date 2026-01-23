@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server Management</title>
+</head>
+<body>
+<h1>Servers</h1>
+
+<select id="serverSelect"></select>
+<button onclick="refreshStats()">Refresh</button>
+
+<h3>Server Stats</h3>
+<pre id="stats">Loading</pre>
+
+<h3>Run Command</h3>
+<input id="command" placeholder="Enter command">
+<button onclick="runCommand()">Run</button>
+
+<pre id="output"></pre>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
